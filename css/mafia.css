@@ -1,0 +1,418 @@
+.miss_clik{
+    width: 27px;
+    height: 22px;
+    background: url(../images/gun-miss.png);
+    cursor: pointer;
+}
+
+#miss-table{
+    border: none;
+    border-collapse: separate;
+}
+
+#miss-table tbody{
+    border: none;
+}
+
+#miss-table td{
+    width: 20px;
+    height: 24px;
+    margin: 5px;
+    border: 1px #ccc solid;
+}
+
+#miss-table #miss-button{
+    width: 29px;
+    background: url(../images/gun-miss.png);
+    background-position: -27px 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.miss_clik.miss_0{
+    background-position: 0 0;
+}
+
+.miss_clik.miss_1{
+    background-position: 27px 0;
+}
+
+.tr_seats{
+    max-width: 300px;
+}
+
+.tr_seats td{
+    border: 1px solid #000;
+}
+
+#rate_table{
+    width: 95%;
+}
+
+#rate_table td{
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+#show_setts{
+    cursor: pointer;
+}
+
+#hide_setts{
+    cursor: pointer;
+}
+
+#winner {
+    width: 150px;
+}
+
+#winner td {
+    text-align: center;
+    cursor: pointer;
+}
+
+#winner td:hover {
+    background-color: #ccc;
+}
+
+.vote_st{
+    background-color: #555;
+    color: #fff !important;
+}
+
+.win_team{
+    background-color: #c55 !important;
+    color: #fff !important;
+}
+
+.vote_nd{
+    background-color: #5c5;
+    color: #fff;
+}
+
+.voute_p {
+    width: 20px;
+}
+
+.voute_line:hover {
+    background-color: #eee;
+}
+
+.vote-table-mirror td {
+    display: none;
+}
+
+.vote-table tr {
+    display: none;
+}
+
+#show_setts {
+    display: table-cell;
+}
+
+#hide_setts {
+    display: none;
+}
+
+.hs{
+    display: none;
+}
+
+.target{
+    cursor: pointer;
+}
+
+#show_setts, #hide_setts{
+    width: 15px;
+    vertical-align: central;
+    text-align: center;
+}
+
+.tmp{
+    color: #fff;
+}
+
+.add_tag{
+    background-color: #ccc;
+}
+
+.callc_pick{
+    cursor: pointer;
+}
+
+.calc_butt{
+    border: 0 !important;
+    background-color: rgba(0,0,0,0) !important;
+    width: 100% !important;
+}
+
+.switch{
+    width:  100px;
+    display: inline-table;
+}
+
+.switch td{
+    width: 50%;
+}
+
+.tar_sel{
+    background-color: #ccc;
+}
+
+.buttons{
+	width: 35px;
+}
+
+.bm_selected{
+	background-color: #555 !important;
+	color: #fff !important;
+}
+
+.all_show{
+	width: 15px;
+    cursor: pointer;
+}
+
+.all_hide{
+    cursor: pointer;
+}
+
+.all_bm_buttons{
+	width: 9.6%;
+	border-right: 1px solid #000;
+}
+
+.fk_pick{
+	cursor: pointer;
+}
+
+
+.bm_nick{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.all_bm_buttons{
+	display: none;
+}
+
+.all_bm_actions{
+	display: none;
+}
+
+.fall_click{
+	cursor: pointer;
+}
+.remove_click{
+	cursor: pointer;
+}
+.role{
+	cursor: pointer;
+}
+
+#point_settings *{
+	margin: 0;
+	padding: 0;
+}
+
+#point_settings input{
+	width: 100%;
+	text-align: center;
+	border: 0;
+}
+
+#point_settings td{
+	text-align: center;
+	border: 1px #000 solid;
+}
+
+#game_settings{
+    width: 100%;
+}
+
+#game_settings *{
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+
+#game_settings input{
+	width: 100%;
+	text-align: center;
+	border: 0px !important;
+	background-color: rgba(0,0,0,0) !important;
+    font-weight: lighter;
+    color: gray;
+}
+
+#game_settings .selected{
+    font-weight: bolder;
+    color: #000;
+}
+
+#game_settings td{
+	text-align: center;
+    height: 30px;
+}
+
+#save_day{
+    cursor: pointer;
+}
+
+.border_1{
+	border: 1px #000 solid;
+}
+
+.border_0{
+	border: 0 !important;
+} 
+
+.falls_widget{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 !important;
+}
+
+.falls_widget tbody{
+	border: 0 !important;
+}
+
+.bm_nick tbody{
+    border: 0 !important;
+}
+
+.bm_nick tbody td{
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+}
+
+.all_nicks{
+    border: 0 !important;
+}
+
+.falls_widget td{
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+
+.fall_0{
+	width: 0px;
+    background-image: url(../images/x.png);
+    background-position: top left;
+    height: 20px;
+}
+
+.fall_1{
+	width: 20px;
+    background-image: url(../images/x.png);
+    background-position: top left;
+    height: 20px;
+}
+
+.fall_2{
+	width: 40px;
+    background-image: url(../images/x.png);
+    background-position: top left;
+    height: 20px;
+}
+
+.fall_3{
+	width: 60px;
+    background-image: url(../images/x.png);
+    background-position: top left;
+    height: 20px;
+}
+
+.fall_4{
+	width: 80px;
+    background-image: url(../images/x.png);
+    background-position: top left;
+    height: 20px;
+}
+
+.fall_active{
+	background-color: #fdd !important;
+}
+
+.active_line:hover{
+	background-color: #eee;
+}
+
+.role {
+	width: 100%;
+	height: 100%;
+    padding-top: 8px !important;
+}
+
+#vote_res {
+	width : 100%;
+	height:  auto;
+}
+
+.vote_day {
+    display : inline-block;
+    vertical-align : top;
+    margin : 3px;
+    width : 40px;
+    height: 40px;
+    position : relative;
+    
+    background: #033d78;
+	border-radius: 5px;
+	
+    font-size: 20px;
+	color: #fff;
+	font-family: "PTSans-Bold";
+	padding: 15px 20px;
+   
+    cursor:pointer;
+}
+
+.vote_day p{
+   vertical-align : center;
+   text-align: center;
+   color: #fff;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.helper{
+    text-align : left;
+    color : #fff;
+	padding : 5px;
+	position : absolute;
+	background-color : rgba(0,0,0, .85);
+	border-radius : 5px;
+	width : 100px;
+	margin-left : -10px;
+	margin-top : 5px;
+	top : 50%;
+	left : 50%;
+	visibility : hidden;
+	opacity : 0;
+	z-index : 50;
+}
+
+.to_vote{
+    cursor: pointer;
+}
+
+.vote_day:hover .helper {
+    transition : opacity 1.5s, .1s top 1s;
+    visibility : visible;
+	opacity : 1;
+	top : 100%;
+}
+
+.adv-top{
+    text-align: center;
+    margin-bottom: 20px;
+}
